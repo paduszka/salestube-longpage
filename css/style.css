@@ -54,12 +54,11 @@
   }
   /* HEADER */
 
-  .header {
+header {
     height: 60px;
     width: 100%;
     line-height: 60px;
     background-color: rgb(255, 255, 255);
-    position: fixed;
     z-index: 999;
   }
 
@@ -71,9 +70,8 @@
   /* SECTION 1 */
 
   .sectionOne {
-    min-height: 930px;
+    min-height: 530px;
     width: 100%;
-    padding-top: 80px;
     background-image: url('../images/bg1_1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +96,6 @@
   .form {
     color: rgb(144, 164, 174);
     font-family: 'Teko', sans-serif;
-    margin-top: 50px;
     padding: 10px;
     background-color: #37474f;
     height: auto;
@@ -149,15 +146,15 @@
   }
 
   .how {
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   #howImg {
-    width: 137px;
-    height: 145px;
+    width: 50px;
+    height: 45px;
     background-image: url('../images/how1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +256,7 @@
     width: 100%;
     line-height: 60px;
     background-color: rgb(255, 255, 255);
-    position: fixed;
+      /*position: fixed; */
     left: 0px;
     bottom: 0px;
     z-index: 99;
