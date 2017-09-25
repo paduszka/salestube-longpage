@@ -54,7 +54,7 @@
   }
   /* HEADER */
 
-  header {
+  .header {
     height: 60px;
     width: 100%;
     line-height: 60px;

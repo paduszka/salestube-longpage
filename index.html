@@ -10,6 +10,7 @@
   <!--Boostrap-->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
+
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn/respond/1.4.2/respond.min.js"></script>
@@ -17,138 +18,140 @@
   <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css" rel="stylesheet" />-->
   <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins|Teko" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500" rel="stylesheet">
+  <!--fullPage.js-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 </head>
 
 <body>
+  <div id="fullpage">
+    <!--Header-->
+    <div class="section active header">
+      <div class="container">
+        <div class="row">
 
-  <!--Header-->
+          <div class="col-xs-8">
+            <a href="#" class="logo"><img src="images/salestube_logo.png" alt="LOGO" id="logo" /></a>
+          </div>
 
-  <header>
-    <div class="container">
-      <div class="row">
+          <div class="col-xs-4">
+            <a href="#" class="google"><img src="images/google_analytics.png" alt="Google Analytics Logo" id="gAnalytics" /></a>
+          </div>
 
-        <div class="col-xs-8">
-          <a href="#" class="logo"><img src="images/salestube_logo.png" alt="LOGO" id="logo" /></a>
         </div>
-
-        <div class="col-xs-4">
-          <a href="#" class="google"><img src="images/google_analytics.png" alt="Google Analytics Logo" id="gAnalytics" /></a>
-        </div>
-
       </div>
     </div>
-  </header>
 
-  <!-- START SECTION 1 -->
+    <!-- START SECTION 1 -->
 
-  <section class="sectionOne">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-lg-7 text">
-          <h1><span class="fontYellow">We can boost <br /></span>your digital performance<br />with Google Analytics</h1>
-          <div class="rectangleYellow"></div>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          </p>
-          <img src='images/telefon1.png' class="imgTwo img-responsive center-block" width: "550px" height: "240px" id="imgOne"></img>
-        </div>
+      <div class="section sectionOne">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-lg-7 text">
+            <h1><span class="fontYellow">We can boost <br /></span>your digital performance<br />with Google Analytics</h1>
+            <div class="rectangleYellow"></div>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <img src='images/telefon1.png' class="imgTwo img-responsive center-block" width: "550px" height: "240px" id="imgOne"></img>
+          </div>
 
-        <!--SECTION 1 - FORM-->
+          <!--SECTION 1 - FORM-->
 
-        <div class="col-xs-12 col-sm-12 col-lg-5">
-          <div class="form">
-            <div class="form-group">
-              <h4>Drop us a short note and we will contact
+          <div class="col-xs-12 col-sm-12 col-lg-5">
+            <div class="form">
+              <div class="form-group">
+                <h4>Drop us a short note and we will contact
             you to talk some analytics</h4>
-            </div>
-            <form action="#" class="form-horizontal">
-              <div class="form-group">
-                <label for="name" class="col-sm-1 control-label">Name*</label>
-                <div class="clearfix"></div>
-                <div class="col-sm-12">
-                  <input type="text" required id="name" placeholder=" " class="form-control col-sm-2" />
-                </div>
               </div>
-              <div class="form-group">
-                <label for="email" class="col-sm-1 control-label">E-&nbsp;mail*</label>
-                <div class="clearfix"></div>
-                <div class="col-sm-12">
-                  <input type="email" required id="email" placeholder=" " class="form-control col-sm-2" />
+              <form action="#" class="form-horizontal">
+                <div class="form-group">
+                  <label for="name" class="col-sm-1 control-label">Name*</label>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-12">
+                    <input type="text" required id="name" placeholder=" " class="form-control col-sm-2" />
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="telefon" class="col-sm-1 control-label">Phone*</label>
-                <div class="clearfix"></div>
-                <div class="col-sm-12">
-                  <input type="tel" required id="telefon" placeholder=" " pattern="\[0-9]{3}[0-9]{3}[0-9]{3}" class="form-control" />
+                <div class="form-group">
+                  <label for="email" class="col-sm-1 control-label">E-&nbsp;mail*</label>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-12">
+                    <input type="email" required id="email" placeholder=" " class="form-control col-sm-2" />
+                  </div>
                 </div>
-                <div class="clearfix"></div>
-                <p class="col-sm-12">Make sure we can reach you, if email goes to spam</p>
-              </div>
-              <div class="form-group">
-                <label for="telefon" class="col-sm-1 control-label">Company</label>
-                <div class="clearfix"></div>
-                <div class="col-sm-12">
-                  <input type="text" id="company" placeholder=" " class="form-control" />
+                <div class="form-group">
+                  <label for="telefon" class="col-sm-1 control-label">Phone*</label>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-12">
+                    <input type="tel" required id="telefon" placeholder=" " pattern="\[0-9]{3}[0-9]{3}[0-9]{3}" class="form-control" />
+                  </div>
+                  <div class="clearfix"></div>
+                  <p class="col-sm-12">Make sure we can reach you, if email goes to spam</p>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="service" class="col-sm-12 control-label">Service I'm interested in</label>
-                <div class="clearfix"></div>
-                <div class="col-sm-12">
-                  <select id="service" class="form-control col-sm-12">
+                <div class="form-group">
+                  <label for="telefon" class="col-sm-1 control-label">Company</label>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-12">
+                    <input type="text" id="company" placeholder=" " class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="service" class="col-sm-12 control-label">Service I'm interested in</label>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-12">
+                    <select id="service" class="form-control col-sm-12">
                 <option value="ux">UX</option>
                 <option value="service2">service2</option>
                 <option value="service3">service3</option>
               </select><br />
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="textarea1" class="col-sm-12 control-label">Message</label>
-                <div class="clearfix"></div>
-                <div class="col-sm-12">
-                  <textarea class="form-control col-12" id="textarea" rows="3"></textarea>
+                <div class="form-group">
+                  <label for="textarea1" class="col-sm-12 control-label">Message</label>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-12">
+                    <textarea class="form-control col-12" id="textarea" rows="3"></textarea>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <div class="col-xs-12">
-                  <input type="submit" value="Send us a message" class="form-control send" />
+                <div class="form-group">
+                  <div class="col-xs-12">
+                    <input type="submit" value="Send us a message" class="form-control send" />
+                  </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
+
+          <!-- FORM END -->
+
         </div>
-
-        <!-- FORM END -->
-
-      </div>
-      <div class="row">
-        <div class="col-12 how">
-          <a href=# id="howImg"></a>
+        <div class="row">
+          <div class="col-12 how">
+            <a href=# id="howImg"></a>
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- END SECTION 1  -->
+    <!-- END SECTION 1  -->
 
-  <!-- START SECTION 2 -->
+    <!-- START SECTION 2 -->
+<div class="section sectionTwo">
+      <div class="container">
+        <div class="row">
+          <div class="content">
 
-  <section class="sectionTwo">
-    <div class="container">
-      <div class="row">
-        <div class="content">
-
-          <div class="col-xs-12 col-sm-12 col-lg-5 text">
-            <div class="rectangleBlue"></div>
-            <h3>
+            <div class="col-xs-12 col-sm-12 col-lg-5 text">
+              <div class="rectangleBlue"></div>
+              <h3>
               Analytics consultancy - pay-as-you-go plans as well as flexible retainers starting from €2000 pm
             </h3>
-          </div>
+            </div>
 
-          <div class="col-xs-12 col-sm-12 col-lg-7">
-            <img src='images/laptop1.png' class="imgTwo img-responsive center-block" width: "592px" height: "330px" id="imgTwo"></img>
+            <div class="col-xs-12 col-sm-12 col-lg-7">
+              <img src='images/laptop1.png' class="imgTwo img-responsive center-block" width: "592px" height: "330px" id="imgTwo"></img>
             </div>
           </div>
 
@@ -157,107 +160,105 @@
       </div>
       <div class="row">
         <div class="col-12 sendUs">
-        <a href=# id="sendUsImg"></a>
+          <a href=# id="sendUsImg"></a>
         </div>
       </div>
-    </div>
-</section>
+  </div>
+  </div>
 
-<!-- END SECTION 2  -->
+  <!-- END SECTION 2  -->
 
-<!-- START SECTION 3 -->
+  <!-- START SECTION 3 -->
+<div class="section sectionThree">
+    <div class="container">
+      <div class="row">
 
-<section class="sectionThree">
-  <div class="container">
-    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-7">
+          <img src='images/telefon2.png' class="imgTwo img-responsive center-block" width: "518px" height: "618px" id="imgThree"></img>
+        </div>
 
-      <div class="col-xs-12 col-sm-12 col-lg-7">
-        <img src='images/telefon2.png' class="imgTwo img-responsive center-block" width: "518px" height: "618px" id="imgThree"></img>
-      </div>
-
-      <div class="col-xs-12 col-sm-12 col-lg-5 text">
-        <div class="rectangleYellow"></div>
-        <h3>
+        <div class="col-xs-12 col-sm-12 col-lg-5 text">
+          <div class="rectangleYellow"></div>
+          <h3>
           Auditing & implementation - are you using reliable and correct data? We make sure you do! We can either provide with set of recommendation you will implement on your own, or we are more than happy to do it for you!
         </h3>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12 sendUs">
+          <a href=# id="sendUsImg"></a>
+        </div>
       </div>
 
     </div>
-
-    <div class="row">
-      <div class="col-12 sendUs">
-       <a href=# id="sendUsImg"></a>
-      </div>
-    </div>
-
   </div>
-</section>
 
-<!-- END SECTION 3  -->
+  <!-- END SECTION 3  -->
 
-<!-- START SECTION 4 -->
+  <!-- START SECTION 4 -->
 
-<section class="sectionFour">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-lg-5 text">
-        <div class="rectangleBlue"></div>
-        <h3>
+<div class="section sectionFour">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-5 text">
+          <div class="rectangleBlue"></div>
+          <h3>
           Dashboards & reports - with proper visualisation we can provide you with actionable insights on your business' performance
         </h3>
-      </div>
+        </div>
 
-      <div class="col-xs-12 col-sm-12 col-lg-7">
+        <div class="col-xs-12 col-sm-12 col-lg-7">
           <img src='images/laptop2.png' class="imgTwo img-responsive center-block" width: "646px" height: "360px" id="imgFour"></img>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12 sendUs">
+          <a href=# id="sendUsImg"></a>
+        </div>
       </div>
 
     </div>
-
-    <div class="row">
-      <div class="col-12 sendUs">
-        <a href=# id="sendUsImg"></a>
-      </div>
-    </div>
-
   </div>
-</section>
 
-<!-- END SECTION 4  -->
+  <!-- END SECTION 4  -->
 
-<!-- START SECTION 5 -->
+  <!-- START SECTION 5 -->
+<div class="section sectionFive">
+    <div class="container">
+      <div class="row">
 
-<section class="sectionFive">
-  <div class="container">
-    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-1">
+        </div>
 
-      <div class="col-xs-12 col-sm-12 col-lg-1">
-      </div>
+        <div class="col-xs-12 col-sm-12 col-lg-4">
+          <img src='images/telefon3.png' class="imgTwo img-responsive center-block" width: "354px" height: "659px" id="imgFive"></img>
+        </div>
 
-      <div class="col-xs-12 col-sm-12 col-lg-4">
-        <img src='images/telefon3.png' class="imgTwo img-responsive center-block" width: "354px" height: "659px" id="imgFive"></img>
-      </div>
+        <div class="col-xs-12 col-sm-12 col-lg-1">
+        </div>
 
-      <div class="col-xs-12 col-sm-12 col-lg-1">
-      </div>
-
-      <div class="col-xs-12 col-sm-12 col-lg-6 title">
-        <h3>
+        <div class="col-xs-12 col-sm-12 col-lg-6 title">
+          <h3>
           Custom attribiution modeling - your business is unique, so is your users path to conversion. We can reveal them for you!
         </h3>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12 sendUs">
+          <a href=# id="sendUsImg"></a>
+        </div>
       </div>
 
     </div>
-
-    <div class="row">
-      <div class="col-12 sendUs">
-        <a href=# id="sendUsImg"></a>
-      </div>
-    </div>
-
   </div>
-</section>
 
-<!-- END SECTION 5  -->
+  <!-- END SECTION 5  -->
 
 
   <footer>
@@ -284,8 +285,10 @@
     </div>
   </footer>
 
+  </div>
 
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/init.js"></script>
 </body>
 
 </html>
