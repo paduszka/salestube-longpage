@@ -19,18 +19,27 @@ h1, h2 {
   color: rgb(144, 164, 174);
 }
 
-h3, h4 {
+h3 {
+  font-size: 40px;
+  color: rgb(144, 164, 174);
   font-family: 'Teko', sans-serif;
   font-weight: 100;
 }
 
-.yellow {
-  color: rgb(250, 192, 46);
+h4 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 100;
 }
 
-.rectangle {
+.rectangleYellow {
   height: 4px;
   background-color: rgb(250, 192, 46);
+  width: 30px;
+}
+
+.rectangleBlue {
+  height: 4px;
+  background-color: #2196f3;
   width: 30px;
 }
 
