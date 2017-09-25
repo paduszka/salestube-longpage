@@ -52,14 +52,15 @@ header {
   margin-top: 5px;
 }
 
-section {
-  height: 100%;
+/* SECTION 1 */
+
+.sectionOne {
+  height: 1143px;
   width: 100%;
   padding: 80px;
-  background-image: url('../images/bg1.png');
+  background-image: url('../images/bg1_1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -132,6 +133,50 @@ option {
   font-size: 22px;
   height: 50px;
   margin: 20px 0;
+}
+
+/* SECTION 2 */
+
+.sectionTwo {
+  height: 800px;
+  width: 100%;
+  padding: 80px;
+  background-image: url('../images/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* SECTION 3 */
+
+.sectionThree {
+  height: 800px;
+  width: 100%;
+  padding: 80px;
+  background-image: url('../images/bg3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* SECTION 4 */
+
+.sectionFour {
+  height: 800px;
+  width: 100%;
+  padding: 80px;
+  background-image: url('../images/bg4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* SECTION 5 */
+
+.sectionFive {
+  height: 800px;
+  width: 100%;
+  padding: 80px;
+  background-image: url('../images/bg5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* FOOTER */
