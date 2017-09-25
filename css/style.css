@@ -1,0 +1,183 @@
+  html, body {
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, a {
+  font-size: 14px;
+  color: rgb(144, 164, 174);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 100;
+  color: rgb(144, 164, 174);
+}
+
+h3, h4 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 100;
+}
+
+.yellow {
+  color: rgb(250, 192, 46);
+}
+
+.rectangle {
+  height: 4px;
+  background-color: rgb(250, 192, 46);
+  width: 30px;
+}
+
+
+/* HEADER */
+
+header {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 999;
+}
+
+#gAnalytics {
+  height: 48px;
+  float: right;
+  margin-top: 5px;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  padding: 80px;
+  background-image: url('../images/bg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+@media only screen and (max-width: 1300px) {
+  section {
+    position: relative;
+    height: auto;
+    padding: 80px 10px;
+  }
+}
+
+.title h1 {
+  color: rgb(250, 192, 46);
+  font-size: 60px;
+}
+
+.title h2 {
+  font-size: 30px;
+}
+
+/* FOTMULARZ */
+
+.form {
+  color: rgb(144, 164, 174);
+  font-family: 'Teko', sans-serif;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #37474f;
+  height: auto;
+}
+
+.form h4 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.form-control {
+  background-color: #4b5a61;
+  border: 0;
+  border-radius: 0;
+}
+
+.control-label {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+  margin-left: 0;
+}
+
+.form-horizontal .form-group {
+  margin: 0;
+}
+
+.form-group p {
+  font-size: 10px;
+}
+
+option {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.send {
+  background-color: rgb(250, 192, 46);
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  height: 50px;
+  margin: 20px 0;
+}
+
+/* FOOTER */
+
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 99;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+#telefonIcon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url('../images/telefon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#emailIcon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url('../images/at.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 740px) {
+  .contact a {
+    font-size: 0;
+  }
+  .media-left {
+    padding: 10px;
+  }
