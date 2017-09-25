@@ -1,310 +1,311 @@
-  html, body {
-  font-size: 1em;
-  line-height: 1.4;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-p, a {
-  font-size: 14px;
-  color: rgb(144, 164, 174);
-  font-family: 'Poppins', sans-serif;
-}
-
-h1, h2 {
-  font-family: 'Teko', sans-serif;
-  font-weight: 100;
-  color: rgb(144, 164, 174);
-}
-
-h3 {
-  font-size: 40px;
-  color: rgb(144, 164, 174);
-  font-family: 'Teko', sans-serif;
-  font-weight: 100;
-}
-
-h4 {
-  font-family: 'Teko', sans-serif;
-  font-weight: 100;
-}
-
-.fontYellow {
-  color: rgb(250, 192, 46);
-}
-
-.rectangleYellow {
-  height: 4px;
-  background-color: rgb(250, 192, 46);
-  width: 30px;
-}
-
-.rectangleBlue {
-  height: 4px;
-  background-color: #2196f3;
-  width: 30px;
-}
-
-
-/* HEADER */
-
-header {
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  background-color: rgb(255, 255, 255);
-  position: fixed;
-  z-index: 999;
-}
-
-#gAnalytics {
-  height: 48px;
-  float: right;
-  margin-top: 5px;
-}
-
-/* SECTION 1 */
-
-.sectionOne {
-  min-height: 930px;
-  width: 100%;
-  padding: 80px;
-  background-image: url('../images/bg1_1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionTwo .text {
-  padding-top: 88px;
-}
-
-@media only screen and (max-width: 1300px) {
-  section {
-    position: relative;
-    height: auto;
-    padding: 80px 10px;
+    html, body {
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
 
-.text h1 {
-  font-size: 60px;
-}
-
-.text h2 {
-  font-size: 30px;
-}
-
-.imgOne {
-  width: 650px;
-  height: 340px;
-  background-image: url('../images/telefon1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 50px;
-
-}
-
-/* FOTMULARZ */
-
-.form {
-  color: rgb(144, 164, 174);
-  font-family: 'Teko', sans-serif;
-  margin-top: 50px;
-  padding: 10px;
-  background-color: #37474f;
-  height: auto;
-}
-
-.form h4 {
-  font-size: 30px;
-  text-align: center;
-  margin: 20px;
-}
-
-.form-control {
-  background-color: #4b5a61;
-  border: 0;
-  border-radius: 0;
-}
-
-.control-label {
-  font-weight: 300;
-  font-size: 18px;
-}
-
-.form-horizontal .control-label {
-  text-align: left;
-  margin-left: 0;
-}
-
-.form-horizontal .form-group {
-  margin: 0;
-}
-
-.form-group p {
-  font-size: 10px;
-}
-
-option {
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-.send {
-  background-color: #2196f3;
-  color: rgb(255, 255, 255);
-  font-size: 22px;
-  height: 50px;
-  margin: 20px 0;
-}
-
-/* SECTION 2 */
-
-.sectionTwo {
-  min-height: 800px;
-  width: 100%;
-  padding: 80px;
-  background-image: url('../images/bg2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionTwo .text {
-  padding-top: 190px;
-}
-
-.imgTwo {
-  width: 592px;
-  height: 330px;
-  background-image: url('../images/laptop1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 50px;
-
-}
-
-/* SECTION 3 */
-
-.sectionThree {
-  min-height: 800px;
-  width: 100%;
-  padding: 80px;
-  background-image: url('../images/bg3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionThree .text {
-  padding-top: 170px;
-}
-
-.imgThree {
-  width: 518px;
-  height: 618px;
-  background-image: url('../images/telefon2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 40px;
-
-}
-
-/* SECTION 4 */
-
-.sectionFour {
-  min-height: 800px;
-  width: 100%;
-  padding: 80px;
-  background-image: url('../images/bg4.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionFour .text {
-  padding-top: 172px;
-}
-
-.imgFour {
-  width: 646px;
-  height: 360px;
-  background-image: url('../images/laptop2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 143px;
-}
-
-/* SECTION 5 */
-
-.sectionFive {
-  min-height: 800px;
-  width: 100%;
-  padding: 80px;
-  background-image: url('../images/bg5.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionFive h3 {
-  padding-top: 245px;
-}
-
-.imgFive {
-  width: 354px;
-  height: 659px;
-  background-image: url('../images/telefon3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
-}
-
-/* FOOTER */
-
-footer {
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  background-color: rgb(255, 255, 255);
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  z-index: 99;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-}
-
-#telefonIcon {
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  background-image: url('../images/telefon.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 5px;
-  vertical-align: middle;
-}
-
-#emailIcon {
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  background-image: url('../images/at.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 5px;
-  vertical-align: middle;
-}
-
-@media only screen and (max-width: 740px) {
-  .contact a {
-    font-size: 0;
+  p, a {
+    font-size: 14px;
+    color: rgb(144, 164, 174);
+    font-family: 'Poppins', sans-serif;
   }
-  .media-left {
+
+  h1, h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
+    color: rgb(144, 164, 174);
+  }
+
+  h3 {
+    font-size: 40px;
+    color: rgb(144, 164, 174);
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
+  }
+
+  h4 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .fontYellow {
+    color: rgb(250, 192, 46);
+  }
+
+  .rectangleYellow {
+    height: 4px;
+    background-color: rgb(250, 192, 46);
+    width: 30px;
+  }
+
+  .rectangleBlue {
+    height: 4px;
+    background-color: #2196f3;
+    width: 30px;
+  }
+  /* HEADER */
+
+  header {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+  }
+
+  #gAnalytics {
+    height: 48px;
+    float: right;
+    margin-top: 5px;
+  }
+  /* SECTION 1 */
+
+  .sectionOne {
+    min-height: 930px;
+    width: 100%;
+    padding-top: 80px;
+    background-image: url('../images/bg1_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text h1 {
+    margin-top: 40px;
+    font-size: 60px;
+  }
+
+  .text h2 {
+    font-size: 30px;
+  }
+
+  #imgOne {
+    margin-top: 50px;
+    padding: 30px;
+  }
+
+  /* FORMULARZ */
+
+  .form {
+    color: rgb(144, 164, 174);
+    font-family: 'Teko', sans-serif;
+    margin-top: 50px;
     padding: 10px;
+    background-color: #37474f;
+    height: auto;
   }
+
+  .form h4 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .form-control {
+    background-color: #4b5a61;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .control-label {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .form-horizontal .control-label {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .form-horizontal .form-group {
+    margin: 0;
+  }
+
+  .form-group p {
+    font-size: 10px;
+  }
+
+  option {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  .send {
+    background-color: #2196f3;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    height: 50px;
+    margin: 20px 0;
+  }
+
+  .how {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  #howImg {
+    width: 137px;
+    height: 145px;
+    background-image: url('../images/how1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* SECTION 2 */
+
+  .sectionTwo {
+    min-height: 600px;
+    width: 100%;
+    background-image: url('../images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sectionTwo .text {
+    padding-top: 190px;
+  }
+
+  #imgTwo {
+    margin-top: 140px;
+  }
+
+  .sendUs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  #sendUsImg {
+    width: 101px;
+    height: 95px;
+    margin-top: 100px;
+    background-image: url('../images/send.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* SECTION 3 */
+
+  .sectionThree {
+    min-height: 800px;
+    width: 100%;
+    padding-bottom: 0px;
+    background-image: url('../images/bg3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sectionThree .text {
+    padding-top: 130px;
+  }
+
+  #imgThree {
+    margin-top: 40px;
+  }
+  /* SECTION 4 */
+
+  .sectionFour {
+    min-height: 700px;
+    width: 100%;
+    padding-bottom: 0px;
+    background-image: url('../images/bg4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sectionFour .text {
+    padding-top: 172px;
+  }
+
+  #imgFour {
+    margin-top: 143px;
+  }
+  /* SECTION 5 */
+
+  .sectionFive {
+    min-height: 900px;
+    width: 100%;
+    padding-bottom: 0px;
+    background-image: url('../images/bg5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sectionFive h3 {
+    padding-top: 145px;
+  }
+
+  #imgFive {
+    margin-top: 50px;
+  }
+
+  .sectionFive .sendUs {
+    margin-bottom: 100px;
+  }
+  /* FOOTER */
+
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 99;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+
+  #telefonIcon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/telefon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  #emailIcon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/at.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  @media only screen and (max-width: 740px) {
+    .contact a {
+      font-size: 0;
+    }
+    .media-left {
+      padding: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    }
