@@ -54,26 +54,32 @@
   }
   /* HEADER */
 
-header {
-    height: 60px;
+.header {
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
     background-color: rgb(255, 255, 255);
-    z-index: 999;
-    position: absolute;
-    top:0;
+    top: 0;
     left: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 70;
+    position: fixed;
+  }
+
+  #logo {
+    margin-top: 15px;
   }
 
   #gAnalytics {
-    height: 48px;
     float: right;
     margin-top: 5px;
   }
   /* SECTION 1 */
 
+
   .sectionOne {
-    /*min-height: 530px; */
     width: 100%;
     background-image: url('../images/bg1_1.png');
     background-repeat: no-repeat;
@@ -81,7 +87,7 @@ header {
   }
 
   .text h1 {
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 60px;
   }
 
@@ -90,7 +96,7 @@ header {
   }
 
   #imgOne {
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 30px;
   }
 
@@ -114,11 +120,12 @@ header {
     background-color: #4b5a61;
     border: 0;
     border-radius: 0;
+    height: 30px;
   }
 
   .control-label {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .form-horizontal .control-label {
@@ -156,8 +163,8 @@ header {
   }
 
   #howImg {
-    width: 50px;
-    height: 45px;
+    width: 55px;
+    height: 60px;
     background-image: url('../images/how1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,15 +172,15 @@ header {
   /* SECTION 2 */
 
   .sectionTwo {
-    min-height: 600px;
     width: 100%;
+    padding-bottom: 0px;
     background-image: url('../images/bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .sectionTwo .text {
-    padding-top: 190px;
+    padding-top: 100px;
   }
 
   #imgTwo {
@@ -183,13 +190,13 @@ header {
   .sendUs {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   #sendUsImg {
     width: 101px;
     height: 95px;
-    margin-top: 100px;
+    margin-top: 50px;
     background-image: url('../images/send.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +204,6 @@ header {
   /* SECTION 3 */
 
   .sectionThree {
-    min-height: 800px;
     width: 100%;
     padding-bottom: 0px;
     background-image: url('../images/bg3.png');
@@ -215,7 +221,6 @@ header {
   /* SECTION 4 */
 
   .sectionFour {
-    min-height: 700px;
     width: 100%;
     padding-bottom: 0px;
     background-image: url('../images/bg4.png');
@@ -233,7 +238,6 @@ header {
   /* SECTION 5 */
 
   .sectionFive {
-    min-height: 900px;
     width: 100%;
     padding-bottom: 0px;
     background-image: url('../images/bg5.png');
@@ -250,19 +254,21 @@ header {
   }
 
   .sectionFive .sendUs {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   /* FOOTER */
 
-  footer {
-    height: 60px;
+  .footer {
     width: 100%;
-    line-height: 60px;
+    line-height: 20px;
     background-color: rgb(255, 255, 255);
-    left: 0px;
-    bottom: 0px;
-    z-index: 99;
-  }
+    height: 30px;
+    bottom: 0;
+    font-size: .9em;
+    padding: 5px;
+    z-index: 70;
+    position: fixed;
+}
 
   .contact {
     display: flex;
@@ -300,30 +306,20 @@ header {
     }
   }
 
-  @media only screen and (max-width: 1300px) {
-    .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .sectionOne {
-      padding-top: 70px;
+  @media only screen and (max-width: 1440px) {
+    .text h1 {
+      margin-top: 50px;
+      font-size: 50px;
     }
 
-    .text h1 {
-      margin-top: 40px;
-      font-size: 60px;
+    .text h2 {
+      font-size: 20px;
     }
 
     .form h4 {
-      font-size: 20px;
+      font-size: 24px;
       text-align: center;
-      margin: 10px;
-    }
-
-    .control-label {
-      font-weight: 300;
-      font-size: 10px;
+      margin: 14px;
     }
 
     .form-group p {
@@ -343,5 +339,11 @@ header {
     #imgOne {
       margin-top: 0;
       padding: 30px;
+    }
+    #sendUsImg {
+
+      margin-top: 20px;
+        margin-bottom: 20px;
+
     }
     }
